@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 
 
 const InfoPokemon = props => {
-  
+
   const {id} = useParams()
   const [nombre, setNombre] = useState('Cargando...')
   const [description, setDescription] = useState('') 
